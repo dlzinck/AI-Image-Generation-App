@@ -12,7 +12,7 @@ const CreatePost = () => {
     prompt: '',
     photo: '',
   });
-  const [generatingImg, setGeneratingImg] = useState(false);
+  const [generatingImg, setGeneratingImg] = useState(true);
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = () => {
